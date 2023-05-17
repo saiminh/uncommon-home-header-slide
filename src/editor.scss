@@ -1,0 +1,18 @@
+.uncommon-home-header__slide {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #FFF;
+  padding: 1rem;
+  flex: 1 1 calc(33.333% - 3rem);
+
+  & .components-text-control__input {
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background-color: var(--wp--preset--color--gallery-off-white, #d1ccf2);
+    color: var(--wp--preset--color--sizzling-brown, #000);
+    font-family: var(--wp--preset--font-family--residenz-grotesk);
+  }
+  & .wp-block-image {
+    max-width: 250px;
+  }
+}
